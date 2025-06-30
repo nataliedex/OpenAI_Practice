@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI API Practice</title>
+</head>
+<body>
+    <h1>This is the index.ejs file</h1>
+    <form action="/time" method="POST">
+        <div>
+            <label for="startLocation" class="form-label">Starting Location</label>
+            <input type="text" name="startLocation" placeholder="Address/City/State/Zip">
+        </div>
+
+        <div>
+            <label for="endLocation" class="form-label">Ending Location</label>
+            <input type="text" name="endLocation" placeholder="Address/City/State/Zip">
+        </div>
+
+        <div>
+            <label for="arrivalTime" class="form-label">Arrival Time</label>
+            <input type="text" name="arrivalTime" placeholder="HH:MM">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Get Time to Depart</button>
+    </form>
+    
+</body>
+</html>
