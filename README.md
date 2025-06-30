@@ -1,0 +1,1 @@
+Practicing prompt commands in OpenAI API
